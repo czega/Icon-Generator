@@ -1,5 +1,5 @@
-var color_one = '#000000';
-var color_two = '#ff0000';
+var color_one = '#1abc9c';
+var color_two = '#bdc3c7';
 
 function generateIcon(canvas,username) {
 	var binary = stringToBinary(username);
