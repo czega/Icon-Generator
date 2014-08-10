@@ -1,0 +1,16 @@
+<html>
+<script src="icon_generator.js"></script>
+<script type="text/javascript">
+function generateIconFromUsername(){
+	var username = document.getElementById('username').value;
+	generateIcon('imageCanvas',username);
+}
+</script>
+<body>
+<input type="text" id="username"><br>
+<button onclick="generateIconFromUsername()">Generate</button>
+<br>
+<canvas id="imageCanvas" width="100" height="100" ></canvas>
+
+</body>
+</html>
